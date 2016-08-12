@@ -1,0 +1,31 @@
+#score {
+	margin: 0 auto;
+	text-align: center;
+	color: darkred;
+	font-weight: bold;
+	font-size: 50px;
+	-moz-text-shadow: 2px 2px 1px #248742;
+	-webkit-text-shadow: 2px 4px 1px #248742;
+	text-shadow: 2px 2px 1px #248742;
+}
+
+#coinTapGameContainer {
+	position: relative;
+	/*background-image: url("/Users/Stephie/Desktop/EaselJS-master/sprite-animation-demos/coin-tap-game/images/blackbrick.jpg");*/
+	background-color: lightblue; 
+	background-size: 100%;
+	width: 600px; /*determines the borders of coin appearances*/ 
+	height: auto;
+	margin: 0 auto;
+	padding-top: 24px;
+	-webkit-user-select: none;  
+	-moz-user-select: none;    
+	-ms-user-select: none;      
+	user-select: none;
+}
+
+#coinTapGameContainer canvas {
+	margin: 0;
+	padding: 0;
+	width: 600px; /*determines the borders of colored box*/ 
+}
